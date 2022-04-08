@@ -24,8 +24,8 @@ CMAKE_AR:FILEPATH=D:/TDM-GCC-64/bin/ar.exe
 // MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Debug
 
-//No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:UNINITIALIZED=D:/TDM-GCC-64/bin/g++.exe
+//CXX compiler
+CMAKE_CXX_COMPILER:STRING=D:/TDM-GCC-64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -53,8 +53,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:UNINITIALIZED=D:/TDM-GCC-64/bin/gcc.exe
+//C compiler
+CMAKE_C_COMPILER:STRING=D:/TDM-GCC-64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -113,7 +113,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Demo
 CMAKE_LINKER:FILEPATH=D:/TDM-GCC-64/bin/ld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/JETBRA~1/CLION2~1.4/bin/ninja/win/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
@@ -241,15 +241,6 @@ Demo_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Demo_SOURCE_DIR:STATIC=D:/Projects_in_C++/Calculator_console/Demo
-
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=D:/Projects_in_C++/Calculator_console/Demo/cmake-build-debug
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=D:/Projects_in_C++/Calculator_console/Demo
 
 
 ########################

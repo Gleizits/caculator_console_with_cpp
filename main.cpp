@@ -2,22 +2,13 @@
 #include "conio.h"
 using namespace std;
 int main(){
-    float a, b, suma, minus, multiplication, division;
-    cout<<"Digit a number:"<<endl; cin>>a;
-    cout<<"Digit other number:"<<endl; cin>>b;
-    suma = a + b;
-    minus = a - b;
-    multiplication = a * b;
-    division = a / b;
-    cout<<"The plus is:";
-    cout<<suma<<endl;
-    cout<<"The minus is:";
-    cout<<minus<<endl;
-    cout<<"The multiplication is:";
-    cout<<multiplication<<endl;
-    cout<<"The division is:";
-    cout<<division<<endl;
+    float a,b;
+    cout<<"Enter the first number: "; cin>>a;
+    cout<<"Enter the second number: "; cin>>b;
+    cout<<"The sum of the two numbers is: "<<a+b<<endl;
+    cout<<"The difference of the two numbers is: "<<a-b<<endl;
+    cout<<"The product of the two numbers is: "<<a*b<<endl;
+    cout<<"The quotient of the two numbers is: "<<a/b<<endl;
     getch();
     return 0;
 }
-//This is all for the time being, at another time you will receive an update.
