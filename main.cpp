@@ -3,8 +3,8 @@
 using namespace std;
 int main(){
     float a, b, suma, minus, multiplication, division;
-    cout<<"Digit a number:"<<endl; cin>>a;
-    cout<<"Digit other number:"<<endl; cin>>b;
+    cout<<"Digit a number:"; cin>>a;
+    cout<<"Digit other number:"; cin>>b;
     suma = a + b;
     minus = a - b;
     multiplication = a * b;

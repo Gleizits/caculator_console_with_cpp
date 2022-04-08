@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: Demo
+# Project: Main
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Projects_in_C++\Calculator_console\Demo -BD:\Projects_in_C++\Calculator_console\Demo\cmake-build-debug
+  command = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Projects_in_C++\Calculator_console\Main -BD:\Projects_in_C++\Calculator_console\Main\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

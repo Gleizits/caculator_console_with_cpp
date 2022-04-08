@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Demo
+# Project: Main
 # Configurations: Debug
 # =============================================================================
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Projects_in_C++/Calculator_console/Demo/cmake-build-debug/
+cmake_ninja_workdir = D$:/Projects_in_C++/Calculator_console/Main/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Demo
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Projects_in_C++/Calculator_console/Demo/cmake-build-de
 
 build cmake_object_order_depends_target_Demo: phony || CMakeFiles/Demo.dir
 
-build CMakeFiles/Demo.dir/main.cpp.obj: CXX_COMPILER__Demo_Debug D$:/Projects_in_C++/Calculator_console/Demo/main.cpp || cmake_object_order_depends_target_Demo
+build CMakeFiles/Demo.dir/main.cpp.obj: CXX_COMPILER__Demo_Debug D$:/Projects_in_C++/Calculator_console/Main/main.cpp || cmake_object_order_depends_target_Demo
   DEP_FILE = CMakeFiles\Demo.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Demo.dir
@@ -78,7 +78,7 @@ build Demo.exe: CXX_EXECUTABLE_LINKER__Demo_Debug CMakeFiles/Demo.dir/main.cpp.o
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Projects_in_C++\Calculator_console\Demo\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\Projects_in_C++\Calculator_console\Main\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Projects_in_C++\Calculator_console\Demo\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Projects_in_C++\Calculator_console\Demo -BD:\Projects_in_C++\Calculator_console\Demo\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\Projects_in_C++\Calculator_console\Main\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Projects_in_C++\Calculator_console\Main -BD:\Projects_in_C++\Calculator_console\Main\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build Demo: phony Demo.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Projects_in_C++/Calculator_console/Demo/cmake-build-debug
+# Folder: D:/Projects_in_C++/Calculator_console/Main/cmake-build-debug
 
 build all: phony Demo.exe
 

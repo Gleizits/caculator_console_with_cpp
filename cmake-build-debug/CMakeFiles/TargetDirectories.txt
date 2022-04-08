@@ -1,3 +1,3 @@
-D:/Projects_in_C++/Calculator_console/Demo/cmake-build-debug/CMakeFiles/Demo.dir
-D:/Projects_in_C++/Calculator_console/Demo/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Projects_in_C++/Calculator_console/Demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Projects_in_C++/Calculator_console/Main/cmake-build-debug/CMakeFiles/Demo.dir
+D:/Projects_in_C++/Calculator_console/Main/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects_in_C++/Calculator_console/Main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
